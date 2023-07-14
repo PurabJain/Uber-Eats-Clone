@@ -2,7 +2,7 @@ import firebase from "firebase/compat/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAHqmSYGWcS-f_k7PafGdjWIgR8gG5Ht08",
+  apiKey: "<YOUR_API_KEY>",
   authDomain: "uber-eats-42d97.firebaseapp.com",
   projectId: "uber-eats-42d97",
   storageBucket: "uber-eats-42d97.appspot.com",
