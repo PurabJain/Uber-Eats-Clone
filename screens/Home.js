@@ -17,8 +17,7 @@ import RestaurantItems, {
 import { Divider } from "react-native-elements/dist/divider/Divider";
 import BottomTabs from "../components/home/BottomTabs";
 
-const YELP_API_KEY =
-  "OS67PHL0naZOWY8CR4a__Od1sfLjYz4zfFAfQhfwlCGBKZf8gyykZ46lIBSiBy9YrWNI19xfHq73JF-P2caT09FOgvDwraz2gqyJRtRHBIUTkgYX4lbQszYacYesZHYx";
+const YELP_API_KEY = "<YOUR_YELP_API_KEY";
 
 export default function Home({ navigation }) {
   const [restaurantData, setRestaurantData] = useState(localRestaurants);
